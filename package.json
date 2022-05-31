@@ -33,10 +33,15 @@
   },
   "lint-staged": {
     "*.{.ts,.tsx}": [
-      "eslint",
+      "eslint --fix",
       "git add"
     ]
   },
+  "config": {
+    "commitizen": {
+       "path": "node_modules/cz-customizable"
+     }
+   },
   "eslintConfig": {
     "extends": [
       "react-app",

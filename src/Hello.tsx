@@ -4,7 +4,7 @@ interface State{
     count?:number;
 }
 const Hello:React.FC<State>=()=>{
-    let [count,setCount] =useState(0);
+    let [count,setCount] =useState(0)
     return(
         <div>
             <p>{count}</p>
