@@ -8,7 +8,7 @@ const Hello:React.FC<State>=()=>{
     return(
         <div>
             <p>{count}</p>
-            <button onClick={()=>setCount(count+1)}>+</button>
+            <button onClick={()=>setCount(count+2)}>+</button>
         </div>
     )
 }
